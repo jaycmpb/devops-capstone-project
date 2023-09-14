@@ -31,11 +31,11 @@ After sourcing it you prompt should look like this:
 (venv) theia:project$
 ```
 
-## Useful commands
+## Useful Commands
 
 Under normal circumstances you should not have to run these commands. They are performed automatically at setup but may be useful when things go wrong:
 
-### Activate the Python 3.9 virtual environment
+### Activate the Python 3.9 Virtual Environment
 
 You can activate the Python 3.9 environment with:
 
@@ -61,7 +61,7 @@ make db
 
 You can use the `docker ps` command to make sure that postgres is up and running.
 
-## Project layout
+## Project Layout
 
 The code for the microservice is contained in the `service` package. All of the test are in the `tests` folder. The code follows the **Model-View-Controller** pattern with all of the database code and business logic in the model (`models.py`), and all of the RESTful routing on the controller (`routes.py`).
 
